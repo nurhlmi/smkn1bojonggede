@@ -1,0 +1,22 @@
+/* calendar filter dropdown start */
+.calendar-filter-select {
+	background:  url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEwAACxMBAJqcGAAAAFhJREFUOI1jYBgFVAdPGRgY/hPAT/AZ4MXAwPAHj+bfDAwMHoRckYHHgFRivdKFRXMbsZoZGBgYGBkYGFYiaV4GFSMJcDAwMOxjYGDYxcDAwE6q5lFAAgAAMrki7vVOa8QAAAAASUVORK5CYII=') no-repeat right #e6e6e6;
+	border: 1px solid #ccc;
+	height: 26px;
+	overflow: hidden;
+	width: 120px;
+}
+
+.calendar-filter-select select {
+	background: transparent;
+	border: none;
+	height: 29px;
+	padding: 5px;
+	width: 145px;
+}
+
+.calendar-rounded {
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}

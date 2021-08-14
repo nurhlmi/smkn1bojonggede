@@ -1,0 +1,228 @@
+/*---------------------------------------------------------------
+# Package - Joomla Template based on Sboost Framework   
+# ---------------------------------------------------------------
+# Author - mixwebtemplates http://www.mixwebtemplates.com
+# Copyright (C) 2008 - 2017 mixwebtemplates.com. All Rights Reserved.
+# Websites: http://www.mixwebtemplates.com
+-----------------------------------------------------------------*/
+
+body{font-size:13px;}
+.mx-base {width: 960px;} 
+#tophead, #bottsite, #header, #wrapper, #bottomspot {min-width: 960px; margin: 0 auto}
+#mx-leftcol {width: 25%} 
+#mx-rightcol { width: 27%} 
+#mx-sideleft {width: 20%}
+#mx-sideright { width: 30%}
+#wrapper { color: #444; background-color: #fafafa;}
+#bottsite { color: #fff; background-color: rgba(0,0,0,0.7); }
+h1,h2,h3,h4, .very_big_white, .big_black
+ {
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight:300;
+}
+#wrapper { color: #444; background-color: #fafafa;}
+#topbgr {   background-color: rgba(225,225,225,0.55)}
+#mx-basebody  {   background-color: rgba(255,255,255,0.8)}
+#tophead{ color: #fff; background-color: #555;}
+#bottsite { color: #fff; background-color: #555; }
+#bottomspot h3 { text-align: center; margin-top: 10px; background: none;}
+.jul-formregistration, .jul-formlogin { color: #222;
+}
+#infoset .mx-inner  {
+    margin: 0px;
+    padding: 0;
+}
+
+#topcol { padding-top: 10px; color:#fff;  background-color:rgba(0,0,0,0.65) !important;}	
+
+.main-bg {position: relative;}
+#mx-bookmarks .mx-inner,
+#mx-banner .mx-inner,
+#mx-header .mx-inner,
+#mx-header {
+	padding:0; margin: 0;
+}
+.tab .tab-content {
+  margin-top: -22px;
+}	
+.mx_date { padding: 5px 0px;}
+
+#menuout .mx-inner,
+#mx-banner .mx-inner, #mx-header  .mx-inner {
+	padding:0;
+}
+#mx-search { height: 46px;}
+#mx-bottom a{ color: #999; background: transparent;}
+#mx-bottom li a{ padding: 7px 0px; border-bottom: 1px solid #777;}
+#bottomspot .mx-inner {padding:0;}
+.form-actions{padding:2px 4px 2px;margin-top:5px;margin-bottom:5px;background: transparent;border-top:1px solid #fff;*zoom:1;}	
+#hormenu ul li .submenu-inner,#sublevel ul li .submenu-inner { padding: 3px; margin: 1px 3px 3px 3px; border: 1px solid #ccc;
+	box-shadow:0 0 3px rgba(0,0,0,0.1);
+	-moz-box-shadow:0 0 3px rgba(0,0,0,0.1);
+	-webkit-box-shadow:0 0 3px rgba(0,0,0,0.1);}
+.btn-primary{color:#333;text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25);background-color:#f1f1f1;background-image:-moz-linear-gradient(top, #fafafa, #bbb);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#fafafa), to(#bbb));background-image:-webkit-linear-gradient(top, #fafafa, #bbb);background-image:-o-linear-gradient(top, #fafafa, #bbb);background-image:linear-gradient(to bottom, #fafafa, #bbb);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f1f1f1', endColorstr='#eee', GradientType=0);border-color:#bbb #bbb #ccc;border-color:rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);*background-color:#bbb;filter:progid:DXImageTransform.Microsoft.gradient(enabled = false);}.btn-primary:hover,.btn-primary:active,.btn-primary.active,.btn-primary.disabled,.btn-primary[disabled]{color:#ffffff;background-color:#bbb;*background-color:#ddd;}
+input{width:90%;}
+textarea{width:98%;}
+.quick_contact input{width:80%;}
+#contact-form input{width:40%;}
+#user-registration input, #member-registration input, .login input{width:230px;}
+.pagenav a,.pager a{display:inline-block;padding:4px 14px;background-color:#fff;border:1px solid #ddd;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;background:#fafafa; border-bottom:1px solid #dadada;
+	background-image: -webkit-linear-gradient(top,  #fff, #e6e6e6);
+	background-image: -moz-linear-gradient(top, #fff, #e6e6e6);
+	background-image: -ms-linear-gradient(top, #fff, #e6e6e6);
+	background-image: -o-linear-gradient(top, #fff, #e6e6e6);}
+.pager a:hover{text-decoration:none;background:#f5f5f5; border-bottom:1px solid #dadada;
+	background-image: -webkit-linear-gradient(top,  #e6e6e6, #fff);
+	background-image: -moz-linear-gradient(top, #e6e6e6, #fff);
+	background-image: -ms-linear-gradient(top, #e6e6e6, #fff);
+	background-image: -o-linear-gradient(top, #e6e6e6, #fff);}
+a#pagetop{float:right; background: url(../images/to-top.png) 0 0 no-repeat; width: 30px!important;height: 30px!important; font-size: 0; }
+a#valdate{ color: #f1f1f1; font-size: 10px;padding: 2px 5px; background:#333; border:1px solid #555; -webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;}	
+#extra-font {
+	clear: both;
+	font-size: 50px;
+	line-height: 50px;
+	padding: 10px;
+	text-align:center;
+	text-shadow: 1px 1px 0px #fff, 4px 4px 0px rgba(0,0,0,0.15);
+}
+.gallery  {
+    margin: 0;
+  }	
+.jlogin1 {float:left;width:40%;margin-right:12px;}
+.jlogin2 {float:left;width:50%;margin-top:14px;color:#999;}
+.jlogintext {float:left;margin:0 12px 12px 0;}
+.img-polaroid{margin: 0px !important;padding:0px !important;background-color:#fff;border:0px solid #ccc !important;border:0px solid rgba(0, 0, 0, 0.2) !important;-webkit-box-shadow:0 1px 3px rgba(0, 0, 0, 0.1);-moz-box-shadow:0 1px 3px rgba(0, 0, 0, 0.1);box-shadow:0 1px 3px rgba(0, 0, 0, 0.1);}
+
+	/* feature box style 1 */
+	.feature-box i {
+	border:solid 1px;
+	}
+	
+	.feature-box-small-icon.center{
+	text-align:center;
+	}
+	
+	
+	
+	.feature-box-small-icon .text {
+	padding-left: 70px;
+	}
+	
+	.feature-box-small-icon.center .text{
+	padding-left:0;
+	display:block;
+	}
+	
+	.feature-box-small-icon i {
+	text-shadow:none;
+	color: #333;
+	font-size: 42px;
+	width: 68px;
+	height: 68px;
+	text-align: center;
+	position: absolute;
+	border-radius:60px;
+	}
+	
+	.feature-box-small-icon i.hover {
+	color:#333 !important;
+	}
+	
+
+	
+	.feature-box-small-icon .btn{
+	margin-top:10px;
+	}
+	
+	.feature-box-small-icon.center i{
+	position:inherit;
+	float:none;
+	display:inline-block;
+	margin-bottom:20px;
+	border:none;
+	font-size:60px;
+	background:none;
+	padding:0px;
+	}
+  /* Back To Top */
+#back-top {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 99;
+  display: none;
+}
+#back-top a {
+  width: 30px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+#back-top a .fa {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  display: block;
+  font-size: 14px;
+  background: #a3a3a3;
+  border-radius: 30px;
+}
+#back-top a:hover {
+  color: #2f2f2f;
+}
+#back-top a:hover .fa {
+  background-color: #777;
+} 	
+a{color:#99cc33}
+a:hover,a:active,a:focus{color:#585858}
+/*main menu*/
+#mx-bottom a:hover{color:#99cc33 }
+.colors {background-color:#99cc33;}
+.readmore, a.readmore {background:#99cc33;}
+#tophead  { color:#fff;  background-color: #99cc33;}
+#tophead a { color:#000;}
+.searchmenu:hover #navs { background-color:#99cc33;}
+.tp-caption.buttons a, .myNews .profPeople:hover .profile { background-color:#99cc33 !important;}
+.social-icons li a .top, .social-employee li a .top { color: #99cc33; }
+.btn-primary {
+  background-image: -webkit-linear-gradient(top, #99cc33 0%, #7daa22 100%);
+  background-image: linear-gradient(to bottom, #99cc33 0%, #7daa22 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#99cc33', endColorstr='#7daa22', GradientType=0);
+  border-color: #7daa22;
+}
+#logo {
+    background-color: #99cc33  !important;    
+}
+#logo:after,
+#logo:before  {
+        content: "";       
+        position: absolute;
+        left: -900px;
+        top: 0;
+        width: 900px;
+        height: 100%;
+        background-color: #99cc33;
+    }
+.ip-header .ip-loader svg path.ip-loader-circle {
+	stroke: #99cc33 !important;
+}
+#cd-team .cd-member-info:after, .staff-position, .social-team li a:after {
+	background: none repeat scroll 0 0 #99cc33 !important;
+}
+#cd-team li:hover .staff-wrap, #cd-team li:hover .staff-position, #cd-team li:hover .cd-member-info:after {
+	background-color: #99cc33 !important;
+}
+#cd-team li > a:hover i {
+	text-decoration: none;
+	color: #99cc33 !important ;
+}
+.white .title, .beige .title {background-position:-68px 0px}
+.white .t1, .beige .t1{background-position:0 0px}
+.white .t2, .beige .t2{background-position:-42px -42px}
+.white .t3, .beige .t3{background-position:-20px 0px}
+.white .t4, .beige .t4{background-position:-54px 0px}

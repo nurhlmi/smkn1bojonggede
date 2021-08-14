@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="package" version="3.4.0" method="upgrade">
+	<name>Easy GCalendar (Lite) Edition Package</name>
+	<packagename>easygcalendar</packagename>
+	<packager>Daniel Blum</packager>
+	<author>Daniel Blum</author>
+	<authorUrl>http://codeninja.eu</authorUrl>
+	<version>1.3.0</version>
+	<creationDate>24/11/2018</creationDate>
+	<url>http://codeninja.eu</url>
+	<copyright>Copyright (C) 2010-2018 Daniel Blum. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<downloadUrl>http://codeninja.eu/joomla-extensions</downloadUrl>
+	<description>
+		<![CDATA[
+		<div style="text-align:left;">
+		<h3>Welcome to Easy GCalendar (Lite) Edition for Joomla! </h3>
+		<h3>Copyright (C) 2010-2018 Daniel Blum. All rights reserved.</h3>
+		]]>
+	</description>
+	<files>
+		<file type="component" id="com_easygcalendar">com_easygcalendar.zip</file>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="Easy GCalendar Updates">http://blums.eu/joomlaUpdateServer/extensionsetlist.xml</server>
+	</updateservers>
+</extension>

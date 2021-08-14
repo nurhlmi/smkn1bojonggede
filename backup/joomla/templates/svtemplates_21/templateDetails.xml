@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="2.5" client="site" type="template" method="upgrade">
+    <name>svtemplates_21</name>
+    <creationDate>2016-04-10</creationDate>
+    <version>1.0</version>
+    <author>SVtemplates</author>
+	<authorUrl>https://svtemplates.com/</authorUrl>
+    <description>
+	<![CDATA[
+			<style type="text/css" media="all">
+				<!--
+				#wrap1 {padding:0px 0px 4px 0px;}
+				h1 {clear:both;font-family: Georgia, sans-serif;font-size:36px;margin:30px 20px 0px ;padding:0px 0px 14px 10px;color:#369; border-bottom: 1px solid #ccc; font-weight: normal;}
+				h4 { border: none;  margin: 0 0 12px; padding:0; font: 20px/32px Georgia, sans-serif; color: #333; }				
+				.wrap2 {background:#fff;padding: 20px; font-family: Arial; font-size:13px; text-align: justify; color: #4d4d4d; line-height: 24px;}
+				.leftside {margin: 16px 0 0 176px; font-weight:normal!important; }
+				.livedemo { margin-top: 28px; }
+				.param_headings {display:block; font-weight:bold; text-transform:uppercase; font-size:100%; background:#900; color:#fff;padding:5px 15px;}
+				.adminformlist .hasTip {cursor: help;}
+				.panel .title { padding: 9px !important; background: #fafafa !important;}
+				.panel .title:hover, .panel .title:active { padding: 9px !important; background: #f7f7f7 !important; }
+				ul.adminformlist li { float: left; margin: 0px; padding: 5px 0 5px 0 !important; width: 100%; clear: left; }
+				* html .clearfix,:first-child+html .clearfix{zoom:1}
+				.line_separator.hasText{color:#000;cursor:pointer;font-size:10px;line-height:1px;padding-left:100px}
+				.line_separator{background:#E5E5E5;clear:both;display:block;height:5px;margin:5px 0}
+				.line_separator.hasText span{background:#E5E5E5;padding:4px 10px}
+				.text-limit{text-align:right}
+				-->
+			</style>						
+			<div id="wrap1">     
+			<h1><em>Free template #21 from SVtemplates</em></h1>
+			<div class="wrap2">                  						
+			<a title="Visit the provider website!" href="https://svtemplates.com/" target="_blank"> <img style="float:left;border:1px solid #ccc;margin-right:10px;padding:3px" src="../templates/svtemplates_21/template_thumbnail.png" border="0" alt="Logo" /></a>   
+			<div class="leftside">
+			<h4>Free Joomla Template.</h4> 
+			<p>Responsive layout. Screen resolution: minimal width: 768px, maximal width: 1920px; <br/>
+			Full support for mobile devices - tablets and smartphones;<br/> Module class suffix - 'art-nostyle', 'art-article', 'art-block', 'art-vmenu':<br/> Template compatibility: Joomla 3.5, Joomla 3.4, Joomla 3.3, Joomla 3.2, Joomla 3.1, Joomla 3.0, Joomla 2.5;<br/>102 module positions for the different types of content. For additional information visit <a href="https://svtemplates.com/">SVtemplates.com</a></p>
+			</div></div></div>]]>
+		</description>
+    <files>
+        <folder>css</folder>
+		<folder>js</folder>
+        <folder>html</folder>
+        <folder>images</folder>
+        <folder>language</folder>
+        <folder>library</folder>
+        <file>ReadMe.txt</file>
+        <file>component.php</file>
+        <file>favicon.ico</file>
+        <file>functions.php</file>
+        <file>index.html</file>
+        <file>index.php</file>
+        <file>jquery.js</file>
+        <file>modules.js</file>
+        <file>script.js</file>
+        <file>script.responsive.js</file>
+        <file>templateDetails.xml</file>
+        <file>template_preview.png</file>
+        <file>template_thumbnail.png</file>
+    </files>
+    <positions>
+        <position>debug</position>
+		<position>top-1</position>
+		<position>top-2</position>
+		<position>top-3</position>
+		<position>top-4</position>
+		<position>top-5</position>
+		<position>top-6</position>
+		<position>top-7</position>
+		<position>top-8</position>
+		<position>top-9</position>
+		<position>top-10</position>
+		<position>top-11</position>
+		<position>top-12</position>
+		<position>top-13</position>
+		<position>top-14</position>
+		<position>top-15</position>
+        <position>position-1</position>
+        <position>position-2</position>
+        <position>position-3</position>
+        <position>position-4</position>
+        <position>position-5</position>
+        <position>position-6</position>
+        <position>position-7</position>
+        <position>position-8</position>
+        <position>position-9</position>
+        <position>position-10</position>
+        <position>position-11</position>
+        <position>position-12</position>
+        <position>position-15</position>
+        <position>position-16</position>
+        <position>position-17</position>
+        <position>position-18</position>
+        <position>position-19</position>
+        <position>position-20</position>
+        <position>position-21</position>
+        <position>position-22</position>
+        <position>position-23</position>
+        <position>position-24</position>
+        <position>position-25</position>
+        <position>position-26</position>
+        <position>position-27</position>
+        <position>position-28</position>
+        <position>position-29</position>
+        <position>position-30</position>
+        <position>position-33</position>
+		<position>position-34</position>
+        <position>position-35</position>
+        <position>position-36</position>
+        <position>position-37</position>
+        <position>position-38</position>
+        <position>position-39</position>
+        <position>position-40</position>
+        <position>position-41</position>
+        <position>position-42</position>
+		<position>position-43</position>
+		<position>position-44</position>
+		<position>position-45</position>
+		<position>position-46</position>
+        <position>position-47</position>
+		<position>position-48</position>
+		<position>position-49</position>
+		<position>position-50</position>
+		<position>position-51</position>
+		<position>position-52</position>
+		<position>position-53</position>
+		<position>position-54</position>
+		<position>position-55</position>
+		<position>position-56</position>
+		<position>position-57</position>
+		<position>position-58</position>
+		<position>position-59</position>
+		<position>position-75</position>
+		<position>position-76</position>
+		<position>position-77</position>
+		<position>position-78</position>
+		<position>position-79</position>
+		<position>position-80</position>
+		<position>position-81</position>
+		<position>position-82</position>
+		<position>position-83</position>
+		<position>position-84</position>
+		<position>position-85</position>
+		<position>position-86</position>
+		<position>position-87</position>
+		<position>position-88</position>
+		<position>position-89</position>
+		<position>footer-1</position>
+		<position>footer-2</position>
+		<position>footer-3</position>
+		<position>footer-4</position>
+		<position>footer-5</position>
+		<position>footer-6</position>
+		<position>footer-7</position>
+		<position>footer-8</position>
+		<position>footer-9</position>
+		<position>footer-10</position>
+		<position>footer-11</position>
+		<position>footer-12</position>
+		<position>footer-13</position>
+		<position>footer-14</position>
+		<position>footer-15</position>
+    </positions>
+    <config>
+        <fields name="params">
+		            <fieldset name="basic">
+				<field name="templatesheetwidth" type="text" default="1024px" size="50" label="Sheet width" description="Add px or % / example 1024px/"/>
+				<field name="templatecolor" type="color" default="#edfdee" label="Template background color" description="Changing the background color" />
+			    <field name="headerheight" type="text" default="150" size="50" label="Header height" description="Header height in px"/>
+			    <field name="siteTitle" type="text" size="50" label="TPL_SITE_TITLE" description="TPL_SITE_TITLE_DESCRIPTION"/>
+				<field name="headlinelink" type="text" default="#" size="50" label="Headline link" description="Add Headline link"/>
+				<field name="headlinetop" type="text" default="" size="50" label="Headline margin top" description="Margin top in px"/>
+				<field name="headlinetitle" type="text" default="" size="50" label="Headline title" description="Add Headline title"/>
+                <field name="siteSlogan" type="text" size="50" label="TPL_SITE_SLOGAN" description="TPL_SITE_SLOGAN_DESCRIPTION"/>
+				<field name="slogantop" type="text" default="20" size="50" label="Slogan margin top" description="Margin top in px"/>
+				<field name="headerimage" type="media" directory="images" label="Header background image" description="Add image" default="templates/svtemplates_21/images/header.png"/>
+	            <field name="headercolor" type="color" default="" label="Header background color" description="Background color" />  
+				<field name="postcolorhover" type="color" default="" label="Article hover background color" description="Changing the background" />
+				<field name="artpostmargin" type="text" default="5px" size="50" label="Articles margin" description="Css option"/>	
+				<field name="sidebar1width" type="text" default="30%" size="50" label="Sidebar left width" description="Add px or % / example 25%/"/>
+			    <field name="sidebar2width" type="text" default="20%" size="50" label="Sidebar right width" description="Add px or % / example 25%/"/>
+				<field name="maps" label ="Maps/Google.Bing/ or Youtube video" type="text"  size="50" description="Copy and paste the code for embed maps/Google,Bing/ or Youtube video"  filter="raw" />
+				<field name="scrollToTop" type="radio" class="btn-group" default="0" label="Scroll to top" description="Enable / Disable ">
+                	<option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                 </field>  
+                <field name="scrollToTopimage" type="media" directory="images" label="Scroll To Top image" description="Add image" default="templates/svtemplates_21/images/scrollToTop.png"/>                  
+				<field name="scrollToTopwidth" type="text" default="55px" size="50" label="Scroll To Top width" description="Add width / example 80px/"/>
+				<field name="companyname" type="text" default="" size="50" label="Company name" description="Company name in copyright text"/>
+				<field name="addcssstyle" type="textarea" default="" label="Enter your css code" description="" rows="10" cols="5" filter="raw"/>
+				<field name="googleanalyticcode" type="textarea" default="" label="Enter google analytic code" description="" rows="10" cols="5" filter="raw"/>
+            </fieldset>
+			
+<!--Start Template Settings-->
+				<fieldset name="templateslider" label="Slider setting">		
+					
+<field name="contentslider" type="radio" class="btn-group" default="0" label="Show slider" description="Enable / Disable Slider">
+                	<option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                 </field>  
+				            
+			   <field name="sliderheight" type="text" default="250" size="50" label="Slider height" description=""/>
+			   <field name="sliderwidth" type="text" default="700" size="50" label="Slider width" description=""/>
+			   
+			   <field name="thumbnailscontainerposition" type="list" default="right"  label="Thumbnails container position" description="Left / Right">                   
+                   <option value="right">Right</option>
+                   <option value="left">Left</option>
+                </field>
+				
+				  <field name="spsliderimagesize" type="list" default="contain"  label="SP slider image size" description="CSS options">                   
+                   <option value="none">Images without size</option>                  
+                   <option value="cover">Images cover</option>
+                   <option value="contain">Images contain</option>
+                   <option value="exact">Images exact</option>
+                   </field>                 
+                  
+   <field name="spsliderorientation" type="list" default="horizontal"  label="SP slider orientation" description="Horizontal / Vertical">                   
+                   <option value="vertical">Vertical</option>
+                   <option value="horizontal">Horizontal</option>                  
+              </field>                 
+                  
+				<field name="sliderautoplay" type="list" default="false"  label="Slider auto play" description="Enable / Disable">                   
+                   <option value="false">No</option>
+                   <option value="true">Yes</option>
+                </field>
+				<field name="autoplayDelay" type="text" default="10000" size="50" label="SP Slider Delay" description="Time delay in milliseconds"/> 
+				<field name="sliderbuttonhs" type="list" default="true"  label="Slider buttons" description="Enable / Disable">                   
+                   <option value="false">No</option>
+                   <option value="true">Yes</option>
+                </field>
+			   
+			   <field name="backgroundcolorslidertext" type="color" default="#ff0000" label="Thumbnails text box background color" description="Background color" />
+			   <field name="titlecolorslidertext" type="color" default="#fff" label="Title color" description="Title color" />
+			   <field name="slogancolorslidertext" type="color" default="#fff" label="Slogan color" description="Title color" />
+			   
+			   <field name="thumbnailimagecircle" type="list" default="_"  label="Thumbnail images circle" description="Enable / Disable">                   
+                   <option value="_">No</option>
+                   <option value="150px">Yes</option>
+                </field>
+			   
+<field name="spacer1" type="spacer" default="" label="Setting tab 1" />
+			   
+			    <field name="frontsliderimage1" type="media" directory="images" label="Slider image 1" description="Add image" default=""/>
+				<field name="dataretinafrontsliderimage1" type="media" directory="images" label="Data-retina image 1" description="Optimized for mobile image" default=""/>
+				<field name="titlethumbnailimage1" type="text" default="Lorem ipsum" size="50" label="Title box 1" description="Add title"/>
+				<field name="sloganthumbnailimage1" type="text" default="" size="50" label="Slogan box 1" description="Add text"/>
+				<field name="descriptiontabbox1" type="text" default="" size="50" label="Description box 1" description="Add text"/>
+				<field name="linkdataretinafrontsliderimage1" type="text" size="50" label="Images 1 link" description="Add link" default="#"/>
+				<field name="textdataretinafrontsliderimage1" type="text" size="50" label="Text Button 1" description="Add text button" default="Read more.."/>
+				
+<field name="spacer2" type="spacer" default="" label="Setting tab 2" />				
+                <field name="frontsliderimage2" type="media" directory="images" label="Slider image 2" description="Add image" default=""/>
+				<field name="dataretinafrontsliderimage2" type="media" directory="images" label="Data-retina image 2" description="Optimized for mobile image" default=""/>
+				<field name="titlethumbnailimage2" type="text" default="Lorem ipsum" size="50" label="Title box 2" description="Add title"/>
+				<field name="sloganthumbnailimage2" type="text" default="" size="50" label="Slogan box 2" description="Add text"/>
+				<field name="descriptiontabbox2" type="text" default="" size="50" label="Description box 2" description="Add text"/>
+				<field name="linkdataretinafrontsliderimage2" type="text" size="50" label="Images 2 link" description="Add link" default="#"/>
+				<field name="textdataretinafrontsliderimage2" type="text" size="50" label="Text Button 2" description="Add text button" default="Read more.."/>
+		
+<field name="spacer3" type="spacer" default="" label="Setting tab 3" />				
+                <field name="frontsliderimage3" type="media" directory="images" label="Slider image 3" description="Add image" default=""/>
+				<field name="dataretinafrontsliderimage3" type="media" directory="images" label="Data-retina image 3" description="Optimized for mobile image" default=""/>
+				<field name="titlethumbnailimage3" type="text" default="Lorem ipsum" size="50" label="Title box 3" description="Add title"/>
+				<field name="sloganthumbnailimage3" type="text" default="" size="50" label="Slogan box 3" description="Add text"/>
+				<field name="descriptiontabbox3" type="text" default="" size="50" label="Description box 3" description="Add text"/>
+				<field name="linkdataretinafrontsliderimage3" type="text" size="50" label="Images 3 link" description="Add link" default="#"/>
+				<field name="textdataretinafrontsliderimage3" type="text" size="50" label="Text Button 3" description="Add text button" default="Read more.."/>
+				
+                </fieldset>
+		
+		</fields>
+    </config>
+    <languages folder="language">
+       <language tag="en-GB">en-GB/en-GB.tpl_svtemplates_21.ini</language>
+    </languages>
+</extension>

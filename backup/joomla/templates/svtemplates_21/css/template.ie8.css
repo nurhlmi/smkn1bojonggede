@@ -1,0 +1,98 @@
+/* Created by SVtemplates 4.3.0*/
+
+
+.art-sheet
+{
+ 
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #737373;
+  padding: 5px;
+  margin: 5px auto 0;
+  position: relative;
+  cursor: auto;
+  width: 100%;
+  min-width: 480px;
+  max-width: 1920px;
+  z-index: auto !important;
+  }
+  
+
+
+
+.art-content7 {
+display: none;
+}
+.art-content4 {
+display: none;
+}
+
+.art-content5 {
+display: none;
+}
+
+
+
+
+.art-vmenublock
+{
+  background: #F9FAFB ;
+   -webkit-border-radius: 6px 6px 4px 4px;
+  -moz-border-radius: 6px 6px 4px 4px;
+  border-radius: 6px 6px 4px 4px;
+  border: 1px solid #666;
+  padding: 7px;
+  margin: 12px;
+}
+
+.art-block
+{
+  background: #F9FAFB ;
+   -webkit-border-radius: 6px 6px 4px 4px;
+  -moz-border-radius: 6px 6px 4px 4px;
+  border-radius: 6px 6px 4px 4px;
+  border: 1px solid #666;
+  padding: 7px;
+  margin: 12px;
+}
+
+.art-blockcontent
+{
+  background: #FFFFFF;
+    -webkit-border-radius: 0 0 3px 3px;
+  -moz-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px;
+  border: 1px solid #CCC;
+  padding: 7px;
+  margin: 0 auto;
+  color: #000000;
+  font-size: 13px;
+  font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+
+.art-vmenublockcontent
+{
+  background: #FFFFFF;
+    -webkit-border-radius: 0 0 3px 3px;
+  -moz-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px;
+  border: 1px solid #CCC;
+  padding: 7px;
+  margin: 0 auto;
+  color: #000000;
+  font-size: 13px;
+  font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.art-post
+{
+  background: #FFFFFF;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  border: 1px solid #CCC;
+  padding: 5px;
+  margin: 10px;
+}

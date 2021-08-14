@@ -1,0 +1,375 @@
+/*---------------------------------------------------------------
+# Package - Joomla Template based on Sboost Framework   
+# ---------------------------------------------------------------
+# Author - mixwebtemplates http://www.mixwebtemplates.com
+# Copyright (C) 2008 - 2015 mixwebtemplates.com. All Rights Reserved.
+# Websites: http://www.mixwebtemplates.com
+-----------------------------------------------------------------*/
+.form-horizontal .nav.nav-tabs{
+
+	width: 20%;
+
+	float: left;
+
+	border-bottom: 0;}
+
+.form-horizontal .nav.nav-tabs li{width: 100%;}
+
+.form-horizontal .nav.nav-tabs li.active a{border: 0;}
+
+.form-horizontal .tab-content{
+
+	display: table;
+
+	width: 78%;
+
+	float: right;}
+
+#attrib-presetslide>.control-group .alert.alert-info{margin: 0;cursor: pointer;}
+
+#attrib-ADVANCED>.control-group .alert.alert-info{margin: 0;cursor: pointer;}
+.admin.com_modules {padding: 0}
+.admin.com_modules .header {padding-top: 30px;}
+#system-message-container .alert,
+div.subhead-collapse>.subhead{margin: 0}
+.alert-info h4 {font-size: 18px !important; font-family: Arial;}
+.alert-info {padding-top: 0px  !important;padding-bottom: 0px  !important;}
+.container-fluid.container-main{padding: 0}
+.form-horizontal,
+#module-form{
+	display: table;
+	width: 100%;
+	margin: 0;
+	height: 100%;
+	position: relative;}
+.form-horizontal{
+	height: 100%;
+	background: url(../images/bg.jpg) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;}
+.right-block {	
+	box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.25);
+	z-index: 1;
+	width: 260px;
+	height: 100%;
+	position: absolute;
+	background: rgba(255, 255, 255, 0.70);}	
+#myTabTabs{
+	z-index: 10;
+	width: 260px;
+	height: 100%;
+	border: 0;
+	border-bottom: 1px solid #000;
+	margin: 0;
+	position: fixed;
+    overflow-y: auto;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	}
+#myTabTabs li:first-child{border: 0}
+#myTabTabs li{
+	width: 100%;
+	float: none;
+	padding: 0 16px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-webkit-transition: all 0.4s ease-out;
+	-moz-transition: all 0.4s ease-out;
+	-o-transition: all 0.4s ease-out;
+	-ms-transition: all 0.4s ease-out;}
+#myTabTabs li:hover,
+#myTabTabs li.active{
+	background-color: #02ADEA;}
+#myTabTabs li i{
+	float: left;
+	font-size: 17px;
+	color: #828282;
+	width: 20px;
+	-webkit-transition: all 0.4s ease-out;
+	-moz-transition: all 0.4s ease-out;
+	-o-transition: all 0.4s ease-out;
+	-ms-transition: all 0.4s ease-out;}
+#myTabTabs li a{
+	border-radius: 0;
+	border: 0;
+	list-style: none outside none;
+	font-family: Arial;
+	font-size: 14px;
+	color: #4c4e5a;
+	text-shadow: 0px 1px 0px rgba(255, 255,255, 0.6);
+	-webkit-transition: all 0.4s ease-out;
+	-moz-transition: all 0.4s ease-out;
+	-o-transition: all 0.4s ease-out;
+	-ms-transition: all 0.4s ease-out;}
+#myTabTabs li a,
+#myTabTabs li i{padding: 12px 12px 12px 0;}
+#myTabTabs li.active i,
+#myTabTabs li:hover i{color: #fff;}
+#myTabTabs li a:hover,
+#myTabTabs li.active a{
+	text-shadow:none;
+	border: 0;
+	background: none;
+	color: #fff;}
+#myTabContent{
+	width: 80%;
+	height: 100%;
+	float: right;}
+#myTabContent>div{
+	padding: 40px;
+	width: 70%;
+	margin: 50px auto 0;
+	background: #F5F5F5;
+	border-radius: 5px;
+	box-shadow: 0px -1px 0px #FFF inset, 0px 4px 30px rgba(0, 0, 0, 0.5);
+		opacity: 0.90;}
+#myTabContent .control-label label{color: #666666;font-size: 13px;}
+#attrib-basic_setting>.control-group {margin-bottom: 15px;}
+.span3 .control-group .controls .chzn-container.chzn-container-single{width: 100%!important;}
+#general>.form-inline{margin: 0 0 20px;}
+#general>.form-inline .control-group{margin: 0;}
+#general>.form-inline .control-group .control-label{width: 50px;}
+#general>.form-inline .control-group .controls{
+	margin: 0;
+	float: left;
+	padding: 0;}
+#myTabTabs .copyright{
+	right: 0;
+	left: 0;
+	text-align: center;
+	bottom: 60px;
+	position: absolute;}
+#myTabTabs .copyright a{
+	font-size: 13px;
+	color: #828282;
+	text-decoration: blink;
+	-webkit-transition: all 0.4s ease-out;
+	-moz-transition: all 0.4s ease-out;
+	-o-transition: all 0.4s ease-out;
+	-ms-transition: all 0.4s ease-out;}
+#myTabTabs .copyright a:hover{color: #fff}
+
+/* Fix for IE 7: */
+* + html .btnButton { 
+    padding: 0; 
+    margin: 0;}
+.btnButton {
+	text-shadow: none !important;
+	font-size: inherit !important;
+}
+span.hasTipPreview {
+    cursor: pointer;
+    display: block;}
+.btl-panel fieldset {padding: 0 !important;}
+section.wrapper {text-align: center;}
+
+/*_______________________ tabs style for joomla > 3 __________________________*/
+#dialog-form input {
+    width: 97% !important;
+    margin: 10px 0 10px 0 !important;
+    border-radius: 0;
+    color: #555555;
+    font-size: 13px;
+    height: 28px;
+    padding: 5px;}
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+	border: 1px solid #eee!important;
+	box-shadow: none!important;
+ }
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
+	background: #FAFAFA;
+}    
+.ui-dialog {background-color: #fff!important;}
+.chzn-container .chzn-results li.highlighted {background-color: #02ADEA;background-image: none;}
+.chzn-container .chzn-results li {padding: 10px 6px;border-top: 1px solid #eee;}
+.chzn-container-multi .chzn-choices li.search-choice {padding: 10px 20px 10px 5px;}
+.chzn-container-multi .chzn-choices li.search-choice .search-choice-close {top: 12px;}
+.chzn-container .chzn-drop {box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);border: none;}
+.btn {
+	background-color:#ddd!important;
+	background: #ddd!important;
+	box-shadow: none!important;
+	text-shadow:none!important;
+	border: none!important;
+		-webkit-transition: all 0.6s ease-out;
+	-moz-transition: all 0.6s ease-out;
+	-o-transition: all 0.6s ease-out;
+	-ms-transition: all 0.6s ease-out;
+}
+.radio.btn-group .btn{
+	width: 42px;
+	min-width: 0!important;
+	height: 23px;
+	padding-top: 7px!important;
+}
+#jform_showtitle .btn {padding-top: 5px;}
+.ui-tooltip, #teble_category tr td, #attrib-category-manager label{
+	box-shadow: none!important;
+	border: none!important;
+	font-size: 13px;
+	color: #666;
+}
+.input-prepend .btn {height: 20px;}
+.input-prepend .input-small {
+	border-bottom: 1px solid #ccc!important;
+	border-top: 1px solid #ccc!important;}
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .btn-success.disabled, .btn-success[disabled], .btn-success,
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .btn-danger.disabled, .btn-danger[disabled] {
+	background-color: #02ADEA!important;
+	background: #02ADEA!important;
+	box-shadow: none!important;
+	border: none!important;
+	width: 25px;
+	min-width: 0!important;
+	height: 23px;
+	padding-top: 7px;
+}
+.form-search input, .form-search textarea, .form-search select, .form-search .help-inline, .form-search .uneditable-input, .form-search .input-prepend, .form-search .input-append, .form-inline input, .form-inline textarea, .form-inline select, .form-inline .help-inline, .form-inline .uneditable-input, .form-inline .input-prepend, .form-inline .input-append, .form-horizontal input, .form-horizontal textarea, .form-horizontal select, .form-horizontal .help-inline, .form-horizontal .uneditable-input, .form-horizontal .input-prepend, .form-horizontal .input-append{
+	height: 30px !important;
+}
+.pull-left {height: 30px !important; line-height: 30px;}
+.pull-left.nav-header {line-height: 33px;}
+#menuselect-group {height: auto!important;}
+.chzn-container .chzn-single {
+	background-image: none;
+	background: #fff;
+	height: 38px !important;
+	line-height: 38px;
+	border: 1px solid #eee;
+	border-radius: 2px;
+	box-shadow: none;}
+.chzn-container-single .chzn-single div b {
+background-position:  0px 10px!important;
+}	
+.chzn-container-single .chzn-single abbr {
+	top: 14px;
+}
+.table.table-striped {height: 200px;}
+.chzn-container-active.chzn-with-drop .chzn-single {
+	background-image: none;
+	border: 1px solid #eee;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+#jform_title-lbl {margin-top: 7px;}
+#jform_publish_up_img, #jform_publish_down_img {height: 40px}
+.btn:hover{
+	background-color: #ececec!important;
+}
+#jform_params_module_background {height: 18px!important;}
+#teble_category tr {height: 55px;}
+.qq-uploader {border-bottom: 1px solid #F6F5F3}
+.btn-success:hover,  .btn.active:hover  {background-color: #02ADEA!important;}
+.minicolors-theme-bootstrap .minicolors-input {height: 19px !important}
+.ui-state-default .ui-icon {background-image: url(images/icon-close.png);background-position: 0;border-radius: 0;}
+#attrib-category-manager .btn-success:hover,
+#attrib-category-manager .btn-danger:hover
+ {width: auto!important;}
+ #attrib-category-manager .btn-danger:hover
+ {padding-top: 4px;}
+ #attrib-category-manager .btn-danger {color: #333;}
+ .controls .btn-group > .btn:last-child,
+  .controls .btn-group > .dropdown-toggle {
+  	-webkit-border-top-right-radius: 30px;
+	-moz-border-radius-topright: 30px;
+	border-top-right-radius: 30px;
+	-webkit-border-bottom-right-radius: 30px;
+	-moz-border-radius-bottomright: 30px;
+	border-bottom-right-radius: 30px;
+
+  }
+  .controls .radio.btn-group > label:first-of-type {
+	webkit-border-bottom-left-radius: 30px;
+	-moz-border-bottom-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+	-webkit-border-top-left-radius: 30px;
+	-moz-border-top-left-radius: 30px;
+	border-top-left-radius: 30px;
+}
+
+.chzn-container .chzn-results {margin: 0;padding: 0;}
+div.ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix button span {border-radius: 0;}
+div.ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix button {
+	border: 0;
+	border-radius: 0;
+	box-shadow: none;
+	top: 50%;
+	right: 2%;
+	z-index: 9999;
+	background: transparent;}
+#attrib-category-manager fieldset input[name="add_category"]{padding: 4px 8px;}
+#teble_category{margin-top: 10px;}
+#teble_category tr td:first-child{padding-right: 30px;}
+#sp_qc_clr_category p{
+	color:red;
+	margin: 10px 0;}
+.chzn-container-multi .chzn-choices {background-image: none;border: 1px solid #eee;}	
+.chzn-container-multi .chzn-choices p {color: #999;}
+.ui-dialog .ui-dialog-buttonpane.ui-widget-content button .ui-button-text,
+.module_description_6maps a,
+.btn-success {
+	color: #fff;
+	background: #7BC862;
+	box-shadow: none;
+	-webkit-border-radius:4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border: none;
+	box-shadow: none;
+	background-image:none!important; 
+	text-shadow:none!important;
+	font-weight: normal!important;
+	}
+button.btn.btn-small.btn-success:hover{padding: 0;}
+.btn-toolbar .btn-small {
+	padding: 10px 20px;
+}
+
+#toolbar .btn-success {
+	height: 38px;
+}
+
+#toolbar-apply .btn-success, #toolbar-apply .btn-success:active  {padding: 0!important;}
+.ui-dialog .ui-dialog-buttonpane.ui-widget-content button .ui-button-text:hover,
+.module_description_6maps a,
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .btn-success.disabled, .btn-success[disabled] {
+	color: #fff;
+	background-image:none!important; 
+	text-shadow:none!important;
+	background-color: #7BC862;}
+	.mixwebtemplates-link {
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	position: absolute;
+	top: 27px;
+	left: 75px;
+}
+#details .form-inline-header .controls {display: block;}
+#details .span9 {width: 65%;}
+input.input-small {height: 18px!important;}
+@media only screen and ( max-width: 860px ) {
+.right-block {	
+	box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.25);
+	z-index: 1;
+	width: 200px;
+	height: 100%;
+	position: absolute;
+	background: rgba(255, 255, 255, 0.70);}	
+#myTabTabs{
+	z-index: 10;
+	width: 200px;
+	height: 100%;
+	border: 0;
+	border-bottom: 1px solid #000;
+	margin: 0;
+	position: absolute;
+    overflow-y: auto;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	}
+}

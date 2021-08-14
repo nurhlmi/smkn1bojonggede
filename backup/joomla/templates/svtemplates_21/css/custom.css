@@ -1,0 +1,192 @@
+/* Begin Additional CSS Styles */
+.art-blockheader .t, .art-vmenublockheader .t {white-space: normal;}
+
+div.tooltip {
+position:absolute !important;
+max-width:600px !important;
+background: none !important;
+border: none !important;
+}
+
+.tooltip {
+   position: absolute;
+   z-index: 1030;
+   display: block;
+   visibility: visible;
+   font-size: 12px;
+   line-height: 1.4;
+   opacity: 0;
+   filter: alpha(opacity=0);
+}
+.tooltip.in {
+   opacity: 0.8;
+   filter: alpha(opacity=80);
+}
+.tooltip.top {
+   margin-top: -3px;
+   padding: 5px 0;
+}
+.tooltip.right {
+   margin-left: 3px;
+   padding: 0 5px;
+}
+.tooltip.bottom {
+   margin-top: 3px;
+   padding: 5px 0;
+}
+.tooltip.left {
+   margin-left: -3px;
+   padding: 0 5px;
+}
+.tooltip-inner {
+   max-width: 200px;
+   padding: 8px;
+   color: #fff;
+   text-align: center;
+   text-decoration: none;
+   background-color: #000;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+}
+.tooltip-arrow {
+   position: absolute;
+   width: 0;
+   height: 0;
+   border-color: transparent;
+   border-style: solid;
+}
+.tooltip.top .tooltip-arrow {
+   bottom: 0;
+   left: 50%;
+   margin-left: -5px;
+   border-width: 5px 5px 0;
+   border-top-color: #000;
+}
+.tooltip.right .tooltip-arrow {
+   top: 50%;
+   left: 0;
+   margin-top: -5px;
+   border-width: 5px 5px 5px 0;
+   border-right-color: #000;
+}
+.tooltip.left .tooltip-arrow {
+   top: 50%;
+   right: 0;
+   margin-top: -5px;
+   border-width: 5px 0 5px 5px;
+   border-left-color: #000;
+}
+.tooltip.bottom .tooltip-arrow {
+   top: 0;
+   left: 50%;
+   margin-left: -5px;
+   border-width: 0 5px 5px;
+   border-bottom-color: #000;
+}
+.tooltip {
+   max-width: 400px;
+}
+.tooltip-inner {
+   max-width: none;
+   text-align: left;
+   text-shadow: none;
+}
+th .tooltip-inner {
+   font-weight: normal;
+}
+.tooltip.hasimage {
+   opacity: 1;
+}
+.tip-text {
+   text-align: left;
+}
+
+div.tip-wrap div.tip {
+max-width: 600px !important;
+font-size: 12px;
+padding: 3px;
+}
+
+div.tip-wrap
+{
+border-color:#828282 !important;
+border-radius: 5px !important; 
+background: #fff !important;
+border: 1px solid #aaa;
+position: absolute;
+z-index: 1030;
+display: block;
+visibility: visible;
+font-size: 11px;
+line-height: 1.4;
+opacity: 100;
+filter: alpha(opacity=0);
+margin-left: 3px!important
+}
+
+ul.latestnewsart-vmenu a {
+color: #787878;
+}
+ul.latestnewsart-vmenu a:hover {
+color: #404040;
+}
+ul.latestnewsart-vmenu a:visited {
+color: ##787878;
+}
+
+ul.latestnews a {
+color: #787878;
+}
+ul.latestnews a:hover {
+color: #404040;
+}
+ul.latestnews a:visited {
+color: ##787878;
+}
+
+#mod-finder-searchform.art-search {
+    line-height: 150%;
+} 
+
+#mod-finder-searchform .art-search-button
+{
+height: 24px !important;
+}
+
+.finderart-vmenu a {
+color: #787878;
+}
+
+input, select, textarea, a.art-search-button span 
+{
+max-width: 100%;
+}
+
+select
+{
+height: 25px !important;
+margin-top: 5px;
+}
+
+div.pagination p.counter
+{
+margin: 0 0.3em 0 10px !important;
+}
+
+
+div.art-pager {
+clear: both;
+}
+
+a.art-button, a.art-button:link, a:link.art-button:link, body a.art-button:link, a.art-button:visited, body a.art-button:visited, input.art-button, button.art-button
+{
+margin-top: 5px !important;
+vertical-align: top  !important;
+}
+
+.chzn-container-single .chzn-single {
+width:99%;
+margin-top: 5px;
+}
+/* End Additional CSS Styles */

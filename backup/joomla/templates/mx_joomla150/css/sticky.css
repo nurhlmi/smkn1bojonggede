@@ -1,0 +1,8 @@
+
+#trueHeader{z-index:800;position: relative;left:0;right:0;padding:0px;transition:padding 0.35s ease;-khtml-transition:padding 0.35s ease;-webkit-transition:padding 0.35s ease;-moz-transition:padding 0.35s ease;-ms-transition:padding 0.35s ease;-o-transition:padding 0.35s ease;background-color:rgba(255,255,255,0.9);zoom:1;
+	box-shadow:0 0 3px rgba(0,0,0,0.3);
+	-moz-box-shadow:0 0 3px rgba(0,0,0,0.3);
+	-webkit-box-shadow:0 0 3px rgba(0,0,0,0.3);}
+
+#header.sticky #trueHeader{position:fixed;top:0;}
+#header.sticky.condensed #trueHeader{padding: 0px}

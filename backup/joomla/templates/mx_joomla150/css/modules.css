@@ -1,0 +1,139 @@
+/*---------------------------------------------------------------
+# Package - Joomla Template based on Sboost Framework   
+# ---------------------------------------------------------------
+# Author - mixwebtemplates http://www.mixwebtemplates.com
+# Copyright (C) 2008 - 2013 mixwebtemplates.com. All Rights Reserved.
+# Websites: http://www.mixwebtemplates.com
+-----------------------------------------------------------------*/
+
+/*Module type SP_XHTML*/
+.mod-wrapper,.mod-wrapper-flat {position:relative}
+.module.menu{padding: 5px;}
+.module h3, .dark h3, .white h3, .beige h3, .greys h3, .reds h3, .greens h3, .blues h3, .oranges h3, .colors h3 {background:url(../images/h3_bg.png) repeat-x 0 100%;font-size:18px;line-height:normal;margin:0 0 5px;padding:0 0 10px}
+
+.mod-wrapper ul{list-style:none;margin:0;padding:0}
+.mod-wrapper li{background:none;font-size:12px;margin:0;padding:4px 0px}
+.mod-wrapper li li{margin-left:10px;border-bottom:0!important}
+.mod-wrapper li a{text-decoration:none}
+.mod-wrapper li:hover > a, .mod-wrapper li.active > a{text-decoration:none}
+
+/*Suffix menu*/
+.module.menu ul.menu li {padding:8px 10px;margin:0;background:none}
+.module.menu ul.menu li a {padding:0;margin:0}
+.module.menu ul.menu li:hover,
+.module.menu ul.menu li.active {color:#999}
+.module.menu ul.menu li:hover > a {background:none}
+
+/*Suffix menu*/
+.blocks ul.menu li {padding:4px 6px;margin:0;background:none}
+.blocks a, .blocks ul.menu li a { color: #999;padding:0;margin:0}
+.blocks a:hover, .blocks a:active,.blocks ul.menu li a:hover,
+.blocks ul.menu li a.active {color:#f1f1f1}
+.blocks ul.menu li:hover > a {background:none}
+
+/*Start Module Variations*/
+
+/*Module Type Menu*/
+.mod-wrapper-menu {margin-top:8px}
+.mod-wrapper-menu h3.header{font-size:12px;font-weight:700;color:#000;margin:0;padding:2px 5px}
+.mod-wrapper-menu ul{list-style:none;margin:0;padding:0}
+.mod-wrapper-menu li{font-size:11px;display:block;text-decoration:none;margin:0;padding:4px}
+.mod-wrapper-menu li a:hover{text-decoration:underline}
+.module {
+	margin: 0 5px 10px 5px;
+	padding: 5px;
+}
+
+.white {
+	color: #333;
+	background-color: #fff;
+}
+.white:hover {
+	color: #333;
+	background-color: #f9f9f9;
+}
+.beige {
+	color: #000;
+	background-color: #f9f4ed;
+}
+
+.greys {
+	color: #333;
+	background-color: #f9f9f9;
+}
+.greys:hover {
+	color: #333;
+	background-color: #f1f1f1;
+}
+.reds {
+	color: #222;
+	background-color: #ffeeee;
+}
+.blues {
+	color: #222;
+	background-color: #eef6ff;
+}
+.greens {
+	color: #222;
+	margin: 0 5px 10px 5px;
+	background-color: #f1f6e2;
+}
+.oranges {
+	color: #222;
+	margin: 0 5px 10px 5px;
+	background-color: #fff6ee;
+}
+
+.colors {
+	color: #f1f1f1;
+	padding: 5px;
+}
+
+.dark {
+	background-color: #333;
+	color: #ddd;
+	padding: 5px;
+}
+
+.dark a, .colors a { color: #ddd !important;}
+
+
+.fl{float:left}.fr{float:right}
+.title,.white .title,.greys .title,.colors .title,.oranges .title,.greens .title,.blues .title,.reds .title,.dark .title{background:url(../images/sprite.png) -68px -288px no-repeat;color:#fff;font-size:14px;font-weight:700;height:34px;line-height:28px;margin:0 -5px;text-shadow:0 1px 1px rgba(0,0,0,0.6);}
+.title .t1,.white .t1,.colors .t1,.oranges .t1,.greens .t1,.blues .t1,.reds .t1,.dark .t1{background:url(../images/sprite.png) 0 -288px no-repeat;display:inline-block;height:42px;width:20px;margin-left:-20px}
+.title .t2,.white .t2,.colors .t2,.oranges .t2,.greens .t2,.blues .t2,.reds .t2,.dark .t2{background:url(../images/sprite.png) -42px -330px repeat-x;display:inline-block;height:30px;padding-right:4px;overflow:hidden}
+.title .t3,.white .t3,.colors .t3,.oranges .t3,.greens .t3,.blues .t3,.reds .t3,.dark .t3{background:url(../images/sprite.png) -20px -288px no-repeat;display:inline-block;height:30px;width:20px}
+.title .t4,.white .t4,.colors .t4,.oranges .t4,.greens .t4,.blues .t4,.reds .t4,.dark .t4{background:url(../images/sprite.png) -54px -288px no-repeat;display:inline-block;height:38px;width:12px;margin-right:-12px}
+.white .title, .beige .title {background-position:-68px -216px}
+.white .t1, .beige .t1{background-position:0 -216px}
+.white .t2, .beige .t2{background-position:-42px -258px}
+.white .t3, .beige .t3{background-position:-20px -216px}
+.white .t4, .beige .t4{background-position:-54px -216px}
+.colors .title {background-position:-68px -360px; color: #333!important;}
+.colors .t1{background-position:0 -360px}
+.colors .t2{background-position:-42px -400px}
+.colors .t3{background-position:-20px -360px}
+.colors .t4{background-position:-54px -360px}
+.oranges .title{background-position:-68px -144px}
+.oranges .t1{background-position:0 -144px}
+.oranges .t2{background-position:-42px -186px}
+.oranges .t3{background-position:-20px -144px}
+.oranges .t4{background-position:-54px -144px}
+.greens .title{background-position:-68px 0px}
+.greens .t1{background-position:0 0px}
+.greens .t2{background-position:-42px -42px}
+.greens .t3{background-position:-20px 0px}
+.greens .t4{background-position:-54px 0px}
+.blues .title{background-position:-68px -72px}
+.blues .t1{background-position:0 -72px}
+.blues .t2{background-position:-42px -114px}
+.blues .t3{background-position:-20px -72px}
+.blues .t4{background-position:-54px -72px}
+.reds .title{background-position:-68px -216px}
+.reds .t1{background-position:0 -216px}
+.reds .t2{background-position:-42px -258px}
+.reds .t3{background-position:-20px -216px}
+.reds .t4{background-position:-54px -216px}
+
+.title h3 { margin-top: 3px;}
+					

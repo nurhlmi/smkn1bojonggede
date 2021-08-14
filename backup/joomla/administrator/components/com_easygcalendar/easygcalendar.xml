@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.4.0" method="upgrade">
+	<name>Easy GCalendar</name>
+	<author>Daniel Blum</author>
+	<creationDate>02/12/2018</creationDate>
+	<copyright>Copyright (C) 2010-2018 Daniel Blum. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<authorEmail>info@codeninja.eu</authorEmail>
+	<authorUrl>http://codeninja.eu</authorUrl>
+	<version>1.3.0</version>
+	<description>COM_EASYGCALENDAR_XML_DESCRIPTION</description>
+	<downloadUrl>https://codeninja.eu/joomla-extensions</downloadUrl>
+
+	<install>
+		<sql>
+			<file driver="mysql" charset="utf8">sql/install.sql</file>
+		</sql>
+	</install>
+	
+	<uninstall>
+		<sql>
+			<file driver="mysql" charset="utf8">sql/uninstall.sql</file>
+		</sql>
+	</uninstall>
+	
+	<files folder="site">
+		<filename>index.html</filename>
+		<filename>easygcalendar.php</filename>
+		<filename>controller.php</filename>
+		<folder>views</folder>
+		<folder>libraries</folder>
+		<folder>models</folder>
+		<folder>language</folder>
+	</files>
+	<media destination="com_easygcalendar" folder="media">
+		<filename>index.html</filename>
+		<folder>images</folder>
+	</media>
+	
+	<administration>
+		<menu img="components/com_easygcalendar/menuicon.png">COM_EASYGCALENDAR</menu>
+		<submenu>
+			<menu view="cpanel">COM_EASYGCALENDAR_SUBMENU_CPANEL</menu>
+			<menu view="calendars">COM_EASYGCALENDAR_SUBMENU_CALENDARS</menu>
+			<menu view="support">COM_EASYGCALENDAR_SUBMENU_SUPPORT</menu>
+		</submenu>
+		<files folder="admin">
+			<!-- Site Main File Copy Section -->
+			<filename>index.html</filename>
+			<filename>access.xml</filename>
+			<filename>config.xml</filename>
+			<filename>easygcalendar.php</filename>
+			<filename>controller.php</filename>
+			<filename>menuicon.png</filename>
+			<folder>controllers</folder>
+			<folder>helpers</folder>
+			<folder>libraries</folder>
+			<folder>models</folder>
+			<folder>views</folder>
+			<folder>tables</folder>
+			<folder>sql</folder>
+		</files>
+		
+		<languages>
+			<language tag="de-DE">admin/languages/de-DE/de-DE.com_easygcalendar.ini</language>
+			<language tag="de-DE">admin/languages/de-DE/de-DE.com_easygcalendar.sys.ini</language>
+			<language tag="en-GB">admin/languages/en-GB/en-GB.com_easygcalendar.ini</language>
+			<language tag="en-GB">admin/languages/en-GB/en-GB.com_easygcalendar.sys.ini</language>
+			<language tag="fr-FR">admin/languages/fr-FR/fr-FR.com_easygcalendar.ini</language>
+			<language tag="fr-FR">admin/languages/fr-FR/fr-FR.com_easygcalendar.sys.ini</language>
+		</languages>
+	</administration>
+</extension>

@@ -1,0 +1,93 @@
+.manager_wrap {padding-bottom: 20px;}
+
+.judynoManager .ui-sortable-placeholder {
+display: block; padding: 10px; height: 70px; background: #fff; border: dashed 2px #bbb; margin-bottom: 10px;
+visibility:visible !important;
+-webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;	}
+
+.judynoManager {width:100%; border-spacing: 0px 10px; margin-top: -10px;}
+.judynoManager tr > td { padding: 10px; border: solid 1px #ccc; background: #f2f2f2 url(../images/judyno/bg.png);
+-webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px;
+-webkit-box-shadow: inset 0 0 20px white, 0 2px 0px #CCC; -moz-box-shadow: inset 0 0 20px white, 0 2px 0px #CCC; box-shadow: inset 0 0 20px white, 0 2px 0px #CCC;}
+.judynoManager tr > td.fromtemplate {background-color: #DFDFDF;}
+
+.judynoManager tr > td:hover {border: solid 1px #aaa;}
+.judynoManager tr.ui-sortable-helper > td {border: solid 1px #999; background: #eee url(../images/judyno/bg.png);
+-webkit-box-shadow: inset 0 0 20px #ccc, 0 2px 0px #CCC, 0 0 20px rgba(0,0,0,0.3);
+-moz-box-shadow: inset 0 0 20px #ccc, 0 2px 0px #CCC, 0 0 20px rgba(0,0,0,0.3);
+box-shadow: inset 0 0 20px #ccc, 0 2px 0px #CCC, 0 0 20px rgba(0,0,0,0.3);}
+
+.judynoManager tr > td .dynoitem {margin:15px 0;}
+.judynoManager tr > td .underbuttons {margin: 15px 0 10px; border: 0; border-top: 1px solid #DADADA; border-bottom: 1px solid white;}
+
+.ju_uikit_button,
+.minimize_all {color: #666; text-shadow: 0px 1px 0px rgba(255,255,255,0.59); font-size: 12px; display: inline-block; position: relative; margin: 0px 1px 0px 1px; width: auto; height: auto; background-color: #ececec; padding: 6px 10px 6px 10px; outline: none; border: 1px solid #d8d8d8; border-bottom: 1px solid #ccc; border-radius: 3px; cursor: pointer; -webkit-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 14px 13px rgba(255,255,255,0.57); -moz-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 14px 13px rgba(255,255,255,0.57); -o-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 14px 13px rgba(255,255,255,0.57); box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 14px 13px rgba(255,255,255,0.57);}
+
+.ju_uikit_button:hover {color: #888; text-shadow: 0px 1px 0px rgba(255,255,255,0.69); -webkit-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 14px 13px rgba(255,255,255,0.75); -moz-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 14px 13px rgba(255,255,255,0.75); -o-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 14px 13px rgba(255,255,255,0.75); box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 14px 13px rgba(255,255,255,0.75);}
+
+.ju_uikit_button:active {color: #696969; text-shadow: 0px 1px 0px rgba(255,255,255,0.53); border: 1px solid #d2d2d2; border-bottom: 1px solid #d8d8d8; -webkit-box-shadow: 0px 1px 0px rgba(255,255,255,0.58), inset 0px 1px 6px rgba(0,0,0,0.07), inset 0px -14px 13px rgba(255,255,255,0.20); -moz-box-shadow: 0px 1px 0px rgba(255,255,255,0.58), inset 0px 1px 6px rgba(0,0,0,0.07), inset 0px -14px 13px rgba(255,255,255,0.20); -o-box-shadow: 0px 1px 0px rgba(255,255,255,0.58), inset 0px 1px 6px rgba(0,0,0,0.07), inset 0px -14px 13px rgba(255,255,255,0.20); box-shadow: 0px 1px 0px rgba(255,255,255,0.58), inset 0px 1px 6px rgba(0,0,0,0.07), inset 0px -14px 13px rgba(255,255,255,0.20);}
+
+.judynoManager .drag-dynoitem {background-color: #dbecf9; background-image: url(../images/judyno/juui.png); background-position: 0 -56px;
+background-repeat: no-repeat; padding-left: 30px;}
+.judynoManager .remove-dynoitem {background-color: #f9dbdb;background-image: url(../images/judyno/juui.png); background-position: 0 0;
+background-repeat: no-repeat; padding-left: 30px; }
+.judynoManager .clone-dynoitem {background-image: url(../images/judyno/juui.png); background-position: 0 -84px;
+background-repeat: no-repeat; padding-left: 30px; }
+.manager_wrap .addnew {background-color: #e4f9db;background-image: url(../images/judyno/juui.png); background-position: 0 -28px;
+background-repeat: no-repeat; padding-left: 30px; }
+
+.judynoManager label {min-width:130px; height: 20px; font-size: 11px; line-height: 20px;
+float: left; clear: left; display: block; margin: 5px 0;}
+
+.judynoManager .dynoitem .fld {margin:5px 0; padding: 5px;}
+.judynoManager .dynoitem .fld:nth-child(even) {background: rgba(255, 255, 255, 0.44);}
+.judynoManager .dynoitem .wrapper .ju_uikit_button {margin-left:5px; float: left;}
+
+#slider_ma1nager .dynoitem input[type=text] {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; position: relative; margin: 0; padding: 5px; outline:none; color: #999; background: #ececec; border: 1px solid #d2d2d2; border-bottom: 1px solid #d8d8d8; }
+
+.judynoManager .dynoitem input[type=text],
+.judynoManager .dynoitem select,
+.judynoManager tr > td .dynotitle > input[type=text]:focus {background: #fcfcfc; color: #505050; border: 1px solid #d2d2d2; border-bottom: 1px solid #d8d8d8; border-radius: 3px;  font-size:11px; margin: 1px 0; outline: 0 none; padding:6px 5px;
+-webkit-box-shadow: 0px 1px 0px rgba(255,255,255,0.58), inset 0px 0px 6px rgba(0,0,0,0.07); -moz-box-shadow: 0px 1px 0px rgba(255,255,255,0.58), inset 0px 0px 6px rgba(0,0,0,0.07); -o-box-shadow: 0px 1px 0px rgba(255,255,255,0.58), inset 0px 0px 6px rgba(0,0,0,0.07); box-shadow: 0px 1px 0px rgba(255,255,255,0.58), inset 0px 0px 6px rgba(0,0,0,0.07);}
+
+.judynoManager .dynoitem input[type=text]:focus,
+.judynoManager .dynoitem select:focus {border: 1px solid #999; border-bottom: 1px solid #989898; color: #666; background:#fff;}
+.judynoManager .dynoitem select {padding:4px 5px 5px;}
+
+.mediaField {position:relative;}
+.mediaField .previewimg {position:absolute; background:#333; border:3px solid #888; border-radius:3px; padding:10px; margin-top:40px; text-align:center; width:200px; height:64px;
+box-shadow:3px 3px 10px rgba(0,0,0,0.3); display:none;}
+.mediaField:hover .previewimg { display:block;}
+.mediaField .previewimg:after {content:''; position:absolute; top:-13px; left:30px; border:5px solid transparent; border-bottom-color:#888; }
+.mediaField .previewimg img {max-height:60px; max-width:180px;float: none;margin: 0;}
+
+.dropdown_target {padding: 5px 3px; font-size:10px; vertical-align:top; margin:1px 0 0 3px; background: #FCFCFC; color: #999; border: 1px solid #D2D2D2; border-bottom: 1px solid #D8D8D8; border-radius: 3px;
+-webkit-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.58), inset 0px 0px 6px rgba(0, 0, 0, 0.07);
+-moz-box-shadow: 0px 1px 0px rgba(255,255,255,0.58), inset 0px 0px 6px rgba(0,0,0,0.07);
+-o-box-shadow: 0px 1px 0px rgba(255,255,255,0.58), inset 0px 0px 6px rgba(0,0,0,0.07);
+box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.58), inset 0px 0px 6px rgba(0, 0, 0, 0.07);
+}
+
+x.dynoitem {overflow:hidden;} 
+.resize-dynoitem {float:right;}
+.resize-dynoitem {background-image: url(../images/judyno/juui.png); background-position: 0 -112px; background-repeat: no-repeat; padding-left: 30px; }
+.judynoManager tr > td.minimized .resize-dynoitem { background-position: 0 -141px; }
+
+.judynoManager tr > td .dynoitem {margin:15px 0; }
+.judynoManager tr > td.minimized .dynoitem { -webkit-transition:max-height 150ms ease-out; -moz-transition:max-height 150ms ease-out; -o-transition:max-height 150ms ease-out; transition:max-height 150ms ease-out; max-height:40px; overflow:hidden;}
+.judynoManager tr > td .dynoitem {margin:15px 0; max-height:1000px;} 
+.judynoManager tr > td .fld.dynotitle {margin-top:0;}
+.judynoManager tr > td .dynotitle > input[type=text] {background:none; border:1px solid transparent; -webkit-box-shadow:none; -moz-box-shadow:none; box-shadow:none; color:#333; font-weight:bold; width:97%; cursor:pointer; font-size:14px;}
+.judynoManager tr > td .dynotitle > input[type=text]:hover {color:#000;}
+.judynoManager tr > td .dynotitle > input[type=text]:focus {cursor:text; font-weight: normal; text-align:left;}
+
+.manager_head {margin: 15px 0;}
+.manager_label {color:#37728c; background: #dceef8; display:block; margin-bottom:5px;  font-size: 18px; padding: 8px 16px; }
+.minimize_all {float:right;}
+
+.judynoManager .browseField {display:inline-block;}
+
+
+.judynoManager {border-collapse:separate;}
+.judynoManager .clearfix {border-spacing: 0;;}
+.manager_wrap {max-width: 700px;}

@@ -1,0 +1,74 @@
+.event-details-title-print, .event-details-url-print {
+	display:none;
+}
+.event-details-header {
+	border-bottom: 2px solid #DDDDDD;
+}
+
+#event-details-map {
+	margin-top:25px;
+	width: 100%;
+	height: 200px;
+}
+
+.event-details-label {
+	font-weight: bold
+}
+
+.event-details-content a {
+	white-space: nowrap;
+	overflow: hidden;
+	display: block;
+}
+
+.item-image {
+	margin-bottom: 10px;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	margin-right: .3em;
+}
+
+/** attachments section **/
+ul.attachments {
+	list-style-type: none;
+	padding: 0;
+}
+ul.attachments li {
+	padding: 2px 2px 2px 0;
+	list-style-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAABB0lEQVRIS+2W4RHBQBCFv1SAClABJegAHdABlaACSqACVEAH6IAKmGeSzLncJSGTGT9uf2Vye/vtvOxkX0Q2OsAC6AN6zosrMAe2BXlEVoIKn4Bm0UXrfBkDvddskDobAkdgAqhjXwyAvXG4Aaa+ZBt0BxpAtwCS1Htahb0wG5RctN/7GrVBynPC6gAJtgJmZnd1gcQYm9NYFXQGeh5dNUj61u+oCnIxzGlM69cBEjwzVAFU9s8UpCurVCYvSBekSxX4n2FIVnkL0PMvIYNzAW6mi/KZk0NsNPLMiasJQdaAVsUOGPn2kRK1zGRQqsQj9oVpoy4TIph8mgxk+0ua5FKj8gsfarwAPdpGG0h6t30AAAAASUVORK5CYII=");
+	list-style-position:outside;
+}
+ul.attachments .attachment-item[data-filename$=zip],
+ul.attachments .attachment-item[data-filename$=tar] {
+	list-style-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAABgUlEQVRIS82WgTFDQRBAXypABagAHegAFaACVEAHqIAOUEGoABWgAypgXubOnMv+n5+fBDeTmT+5vX27e7t7OyBea8A5sAn43bZegRPgtk1oEGyq+BFYngCoty8SMDwWgbRsB3gADgAtblrbwLDYvAYOI+EI9A4sAesTIFnfZ6U4hEWgfDDai4ytQcqMwRYFEnYJHGfLFgmSsZezcR6gJ2CjIVtMJO+aeYAiRpmNI8aiQOr+kVS/CmqLcZfm4PmtQHDMo7IOag/d878z4LQIte3JlrOfABMjo0AJugc+gN30uwlAtiW7h5689AV5zl5lv1OJltceaYRpK6w3yEZqahqWo8LaOnQ+Hz4jynbK3jp0XqohUbEr30sJyt/l/U91R9mbUkGUDL1Bs6b3c3qJ6wz/u4JttaRLxTbI/B+P8lO+kmqlj1MOONbYW56i2oYTu4TF2zacREYIuUo1dpc6TPhMKGgmOqDMsmxlFvbI0KYBRJjdQcHVKWmGS0OdF76j8QV7nWQb9YJ9JAAAAABJRU5ErkJggg==");
+}
+ul.attachments .attachment-item[data-filename$=doc],
+ul.attachments .attachment-item[data-filename$=docx] {
+	list-style-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAABpElEQVRIS7WW4TXEQBRG71aAClABKkAFqAAVoAJUgAroABWgAlSAClAB5zpv9mRnMxtJNvOL7OTd995875uMmF4rwAWwDvj3rPUOnAB3DfsYZRsM/AwsNr2Y/X4ZwOJrOcjMdoAn4AAw49LaAh4qP94Ah6XNOegLWABWGyAp3k8WuAjLQenF/Hkp0RzkvlrYEKBa2FAgYXtVNfYFvQBrhb4qJM/6b/UF1TGqahzHHwIkfEpU8wKlAXc8BgMdh2UJ2AA8t04V6RDLwH0E0aZ0hO0YaoNehcIeu1bk8O0D38BbZLwL3AbIwIKEJkjr1uneGqzubBWqyWdnwOk8QWZmcDNN2ab/NwPk4ZtMr4qqM5JgVpOM10odStu4FM9zs209R57DeYjBwK/AZwRXafkF2Ul1ZqlkbZGt+4hzSnfRhKd1VV1qhTfoUUCE2bJ8SKut7lyRQWzPrBt3bqDS5Vf3vLGipKhcRW0gVu5we5ZjkZQ+TpSzHxr/bVVKxMDXIRotSxepvY/cqML8QOmztCxdZJxo3UeIMFXmRs20zbJdJqqjT3TjFw2HeRuL8FtjAAAAAElFTkSuQmCC");
+}
+ul.attachments .attachment-item[data-filename$=pdf] {
+	list-style-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAABfUlEQVRIS7WWgTEFMRCGv1cBKkAF6IAKUAE6oBJUgApQgacCOkAHVMB8JjGRl7y7vMztzM3d3OX2y2b/3WTGom0Bl8Au4PMyewcugIeBccyyATp+AdaHfsy+XwVg9bcc5MwOgWfgFHDGNdsHnpKPt8BZbXAO+gTWgO0BSPT3nTmuwnJQ/DF/X5toDnJcETYFqAibCiTsOFVjL+gV2Kmsq0Iy17/WCyoxUjX++W8FmWjlvzegygVRtYJ0cB0gFumQGleOaB5yYtsxuslAdoubEQXdvXQx0QeA0U0WkXmJXd27Latk3RFZG0eAkZ0A5wFst79LlNgFMj9e9wEkUDMqC9cIN8K7lUFxn1Kuqs38eOncqIxImM9aM0gH7rZG8hjutbykuWoGOUsdO3OvZRthN8iozIfQsdYc0VjH+bhBUNzKVc+YXJQmonDegI/0FFU7nKgoDxpjcxKBQmxR1pniiSVQPG6ZCw8oPfaVi6d0CHFWsdVsNtJcrlhP/1bjB0jnaBsAUiPAAAAAAElFTkSuQmC");
+}
+ul.attachments .attachment-item[data-filename$=png],
+ul.attachments .attachment-item[data-filename$=gif],
+ul.attachments .attachment-item[data-filename$=jpg] {
+	list-style-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAABfUlEQVRIS82W4TEFMRCAv1cBKkAFlEAF6MDrgArogA4ogQpQAR3wKkAFzGcub3J5yV3ubm7G/rq5bPbbbHY3u2BT9oAb4BDwu0s+gEvgoUePRaKg4Vdgu29jsn7bAIvbUpCenQAvwDmgxyU5Ap6ixXtgWVJOQV/AFrDfAwn2fhLDRVgKChvT/yVHU5B6WdgcoCxsLpCwszgbp4LegINCXE0k7/pPpoJyjDgb1/ZrQG68ayyavs8VNbaRVDUgQ7DbGG+FowM4ChRqS7urirak3iiQobM2FLtFHLoLQEfCelrIg+6oFCH74WcDMrsEzgLyNHZ5xQ5uY50MMjQmxHFkrCtJRt1R7LlAvfeuwmkCO27Eg0Hew3vl+xSHbzDoGriqKFBVfMPM0FHpHd9DHy+uscEn6jNeWv8/oNBudpICHHIyBxwTqNWuSsOJbcZO3TWc5OBC7PQmxSNwGpRy45aPmQPKFPlu5sK1o7khRK9sJw6Q4XmohRouHbXIW9H4BfUzYhuYYB7CAAAAAElFTkSuQmCC");
+}
+ul.attachments li a span {
+	display: table-cell;
+	height:30px;
+	vertical-align: middle;
+}
+
+/** print section **/
+@media print {
+	.no-print, .btn {
+		display:none;
+	}
+	
+	.event-details-title-print, .event-details-url-print {
+		display:inline-block;
+	}
+}
+

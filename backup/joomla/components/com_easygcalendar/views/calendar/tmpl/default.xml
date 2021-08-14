@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_EASYGCALENDAR_CALENDAR_VIEW_DEFAULT_TITLE">
+		<message>
+			<![CDATA[COM_EASYGCALENDAR_CALENDAR_VIEW_DEFAULT_DESC]]>
+		</message>
+	</layout>
+	<fields name="params" addfieldpath="/administrator/components/com_easygcalendar/models/fields">
+		<fieldset name="basic" label="COM_EASYGCALENDAR_VIEW_FIELDS_BASIC_LABEL">
+			<field name="calendarids" type="sql" default="" multiple="multiple" required="true" label="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_SELECT_CALENDARS_LABEL" description="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_SELECT_CALENDARS_DESC" query="SELECT id AS value, name AS calendarids FROM #__easygcalendar" />
+			
+			<field name="defaultView" type="list" default="" label="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_DEFAULT_VIEW_LABEL" description="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_DEFAULT_VIEW_DESC">
+				<option value="">JGLOBAL_USE_GLOBAL</option>
+				<option value="month">COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_DEFAULT_VIEW_MONTH</option>
+				<option value="week">COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_DEFAULT_VIEW_WEEK</option>
+				<option value="day">COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_DEFAULT_VIEW_DAY</option>
+			</field>
+			
+			<field name="display_calendar_filters" type="radio" class="btn-group" default="" label="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_DISPLAY_CALENDAR_FILTERS_LABEL" description="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_DISPLAY_CALENDAR_FILTERS_DESC">
+				<option value="">JGLOBAL_USE_GLOBAL</option>
+				<option value="1">JYES</option>
+				<option value="0">JNO</option>
+			</field>
+			
+			<field name="weekstart" type="list" default="" label="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_WEEK_START_LABEL" description="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_WEEK_START_DESC">
+				<option value="">JGLOBAL_USE_GLOBAL</option>
+				<option value="0">COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_WEEK_START_SUNDAY</option>
+				<option value="1">COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_WEEK_START_MONDAY</option>
+				<option value="2">COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_WEEK_START_TUESDAY</option>
+				<option value="3">COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_WEEK_START_WEDNESDAY</option>
+				<option value="4">COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_WEEK_START_THURSDAY</option>
+				<option value="5">COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_WEEK_START_FRIDAY</option>
+				<option value="6">COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_WEEK_START_SATURDAY</option>
+			</field>
+			
+			<field name="weeknumbers" type="radio" class="btn-group" default="" label="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_SHOW_WEEKNUMBERS_LABEL" description="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_SHOW_WEEKNUMBERS_DESC"> 
+				<option value="">JGLOBAL_USE_GLOBAL</option>
+				<option value="1">JYES</option>
+				<option value="0">JNO</option>
+			</field>
+			<field name="weekend" type="radio" class="btn-group" default="" label="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_SHOW_WEEKEND_LABEL" description="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_SHOW_WEEKEND_DESC"> 
+				<option value="">JGLOBAL_USE_GLOBAL</option>
+				<option value="1">JYES</option>
+				<option value="0">JNO</option>
+			</field>
+			
+			<field name="columnformat_month" type="text" default="" size="50" label="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_COLUMN_FORMAT_MONTH_LABEL" description="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_COLUMN_FORMAT_MONTH_DESC" />
+			<field name="columnformat_week" type="text" default="" size="50" label="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_COLUMN_FORMAT_WEEK_LABEL" description="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_COLUMN_FORMAT_WEEK_DESC" />
+			<field name="columnformat_day" type="text" default="" size="50" label="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_COLUMN_FORMAT_DAY_LABEL" description="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_COLUMN_FORMAT_DAY_DESC" />
+			<field name="columnformat_list" type="text" default="" size="50" label="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_COLUMN_FORMAT_LIST_LABEL" description="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_COLUMN_FORMAT_LIST_DESC" />
+			
+			<field name="@spacer-1" type="spacer" default="" label="" description="" />
+			
+			<field name="titleformat_month" type="text" default="" size="50" label="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_TITLE_FORMAT_MONTH_LABEL" description="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_TITLE_FORMAT_MONTH_DESC" />
+			<field name="titleformat_week" type="text" default="" size="50" label="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_TITLE_FORMAT_WEEK_LABEL" description="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_TITLE_FORMAT_WEEK_DESC" />
+			<field name="titleformat_day" type="text" default="" size="50" label="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_TITLE_FORMAT_DAY_LABEL" description="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_TITLE_FORMAT_DAY_DESC" />
+			<field name="timeformat_month" type="text" default="" size="50" label="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_TIME_FORMAT_MONTH_LABEL" description="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_TIME_FORMAT_MONTH_DESC" />
+			<field name="timeformat_week" type="text" default="" size="50" label="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_TIME_FORMAT_WEEK_LABEL" description="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_TIME_FORMAT_WEEK_DESC" />
+			<field name="timeformat_day" type="text" default="" size="50" label="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_TIME_FORMAT_DAY_LABEL" description="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_TIME_FORMAT_DAY_DESC" />
+			<field name="slotlabelformat" type="text" default="" size="50" label="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_AXIS_FORMAT_LABEL" description="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_AXIS_FORMAT_DESC" />
+			
+			<field name="@spacer-2" type="spacer" default="" label="" description="" />
+
+			<field name="min_time" type="text" default="" size="10" label="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_MIN_TIME_LABEL" description="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_MIN_TIME_DESC" />
+			<field name="max_time" type="text" default="" size="10" label="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_MAX_TIME_LABEL" description="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_MAX_TIME_DESC" />
+			
+			<field name="@spacer-3" type="spacer" default="" label="" description="" />
+			
+			<field name="open_event_in_popup" type="radio" class="btn-group" default="" label="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_OPEN_POPUP_LABEL" description="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_OPEN_POPUP_DESC">
+				<option value="">JGLOBAL_USE_GLOBAL</option>
+				<option value="1">JYES</option>
+				<option value="0">JNO</option>
+			</field>
+			<field name="popup_width" type="text" default="" size="5" label="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_POPUP_WIDTH_LABEL" description="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_POPUP_WIDTH_DESC" />
+			<field name="popup_height" type="text" default="" size="5" label="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_POPUP_HEIGHT_LABEL" description="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_POPUP_HEIGHT_DESC" />
+		
+			<field name="@spacer-4" type="spacer" default="" label="" description="" />
+		
+			<field name="display_tooltip_info" type="radio" class="btn-group" default="" label="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_TOOLTIP_SHOW_LABEL" description="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_TOOLTIP_SHOW_DESC"> 
+				<option value="">JGLOBAL_USE_GLOBAL</option>
+				<option value="1">JYES</option>
+				<option value="0">JNO</option>
+			</field>
+			<field name="tooltip_date_format" type="text" default="" size="50" label="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_TOOLTIP_DATE_FORMAT_LABEL" description="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_TOOLTIP_DATE_FORMAT_DESC" />
+			<field name="tooltip_time_format" type="text" default="" size="50" label="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_TOOLTIP_TIME_FORMAT_LABEL" description="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_TOOLTIP_TIME_FORMAT_DESC" />
+			<field name="tooltip_description_length" type="text" default="" size="10" label="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_TOOLTIP_DESC_COUNT_LABEL" description="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_TOOLTIP_DESC_COUNT_DESC" />
+			
+			<field name="@spacer-5" type="spacer" default="" label="" description="" />
+			
+			<field name="calendar_height" type="text" default="" size="50" label="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_CALENDAR_HEIGHT_LABEL" description="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_CALENDAR_HEIGHT_DESC" />
+			<field name="textbefore" type="textarea" default="" label="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_TEXT_BEFORE_LABEL" description="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_TEXT_BEFORE_DESC" rows="5" cols="50" filter="raw"/>
+			<field name="textafter" type="textarea" default="" label="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_TEXT_AFTER_LABEL" description="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_TEXT_AFTER_DESC" rows="5" cols="50" filter="raw"/>
+		</fieldset>
+		
+		<!-- Map -->
+		<fieldset name="map" label="COM_EASYGCALENDAR_CONFIG_FIELD_MAP_LABEL" description="COM_EASYGCALENDAR_CONFIG_FIELD_MAP_DESC">
+			<field name="map_zoom" type="text" default="" size="5" label="COM_EASYGCALENDAR_CONFIG_FIELD_MAP_ZOOM_LABEL" description="COM_EASYGCALENDAR_CONFIG_FIELD_MAP_ZOOM_DESC" />
+			<field name="map_google_js_api_key" type="text" default="" size="50" label="COM_EASYGCALENDAR_CONFIG_FIELD_MAP_GOOGLE_JS_API_KEY_LABEL" description="COM_EASYGCALENDAR_CONFIG_FIELD_MAP_GOOGLE_JS_API_KEY_FORMAT_DESC" />
+		</fieldset>
+	
+		<!-- Event Details -->
+		<fieldset name="event" label="COM_EASYGCALENDAR_CONFIG_FIELD_EVENT_LABEL" description="COM_EASYGCALENDAR_CONFIG_FIELD_EVENT_DESC">
+			<field name="event_date_format" type="text" default="" size="80" label="COM_EASYGCALENDAR_CONFIG_FIELD_EVENT_DATE_FORMAT_LABEL" description="COM_EASYGCALENDAR_CONFIG_FIELD_EVENT_DATE_FORMAT_DESC" />
+			<field name="event_time_format" type="text" default="" size="80" label="COM_EASYGCALENDAR_CONFIG_FIELD_EVENT_TIME_FORMAT_LABEL" description="COM_EASYGCALENDAR_CONFIG_FIELD_EVENT_TIME_FORMAT_DESC" />
+			<field name="event_show_date" type="radio" class="btn-group" default="" label="COM_EASYGCALENDAR_CONFIG_FIELD_EVENT_SHOW_DATE_LABEL" description="COM_EASYGCALENDAR_CONFIG_FIELD_EVENT_SHOW_DATE_DESC">
+				<option value="">JGLOBAL_USE_GLOBAL</option>
+				<option value="1">JYES</option>
+				<option value="0">JNO</option>
+			</field>		
+			<field name="event_show_location" type="radio" class="btn-group" default="" label="COM_EASYGCALENDAR_CONFIG_FIELD_EVENT_SHOW_LOCATION_LABEL" description="COM_EASYGCALENDAR_CONFIG_FIELD_EVENT_SHOW_LOCATION_DESC">
+				<option value="">JGLOBAL_USE_GLOBAL</option>
+				<option value="1">JYES</option>
+				<option value="0">JNO</option>
+			</field>
+			<field name="event_show_creator" type="radio" class="btn-group" default="" label="COM_EASYGCALENDAR_CONFIG_FIELD_EVENT_SHOW_CREATOR_LABEL" description="COM_EASYGCALENDAR_CONFIG_FIELD_EVENT_SHOW_CREATOR_DESC">
+				<option value="">JGLOBAL_USE_GLOBAL</option>
+				<option value="1">JYES</option>
+				<option value="0">JNO</option>
+			</field>
+			<field name="event_show_url" type="radio" class="btn-group" default="" label="COM_EASYGCALENDAR_CONFIG_FIELD_EVENT_SHOW_URL_LABEL" description="COM_EASYGCALENDAR_CONFIG_FIELD_EVENT_SHOW_URL_DESC">
+				<option value="">JGLOBAL_USE_GLOBAL</option>
+				<option value="1">JYES</option>
+				<option value="0">JNO</option>
+			</field>
+			<field name="event_show_attachments" type="radio" class="btn-group" default="" label="COM_EASYGCALENDAR_CONFIG_FIELD_EVENT_SHOW_ATTACHMENTS_LABEL" description="COM_EASYGCALENDAR_CONFIG_FIELD_EVENT_SHOW_ATTACHMENTS_DESC">
+				<option value="">JGLOBAL_USE_GLOBAL</option>
+				<option value="1">JYES</option>
+				<option value="0">JNO</option>
+			</field>
+			<field name="event_show_description" type="radio" class="btn-group" default="" label="COM_EASYGCALENDAR_CONFIG_FIELD_EVENT_SHOW_DESC_LABEL" description="COM_EASYGCALENDAR_CONFIG_FIELD_EVENT_SHOW_DESC_DESC">
+				<option value="">JGLOBAL_USE_GLOBAL</option>
+				<option value="1">JYES</option>
+				<option value="0">JNO</option>
+			</field>
+			<field name="event_show_map" type="radio" class="btn-group" default="" label="COM_EASYGCALENDAR_CONFIG_FIELD_EVENT_SHOW_MAP_LABEL" description="COM_EASYGCALENDAR_CONFIG_FIELD_EVENT_SHOW_MAP_DESC">
+				<option value="">JGLOBAL_USE_GLOBAL</option>
+				<option value="1">JYES</option>
+				<option value="0">JNO</option>
+			</field>
+			<field name="event_show_print_button" type="radio" class="btn-group" default="" label="COM_EASYGCALENDAR_CONFIG_FIELD_EVENT_SHOW_PRINT_BUTTON_LABEL" description="COM_EASYGCALENDAR_CONFIG_FIELD_EVENT_SHOW_PRINT_BUTTON_DESC">
+				<option value="">JGLOBAL_USE_GLOBAL</option>
+				<option value="1">JYES</option>
+				<option value="0">JNO</option>
+			</field>
+			<field name="event_show_ical_button" type="radio" class="btn-group" default="" label="COM_EASYGCALENDAR_CONFIG_FIELD_EVENT_SHOW_ICAL_BUTTON_LABEL" description="COM_EASYGCALENDAR_CONFIG_FIELD_EVENT_SHOW_ICAL_BUTTON_DESC">
+				<option value="">JGLOBAL_USE_GLOBAL</option>
+				<option value="1">JYES</option>
+				<option value="0">JNO</option>
+			</field>
+			<field name="event_show_googlecalendar_button" type="radio" class="btn-group" default="" label="COM_EASYGCALENDAR_CONFIG_FIELD_EVENT_SHOW_GOOGLECALENDAR_BUTTON_LABEL" description="COM_EASYGCALENDAR_CONFIG_FIELD_EVENT_SHOW_GOOGLECALENDAR_BUTTON_DESC">
+				<option value="">JGLOBAL_USE_GLOBAL</option>
+				<option value="1">JYES</option>
+				<option value="0">JNO</option>
+			</field>
+		</fieldset>
+			
+		<fieldset name="advanced" label="COM_EASYGCALENDAR_VIEW_FIELDS_ADVANCED_LABEL">
+			<field name="@spacer" type="spacer" default="" label="" description="" />
+			<field name="cache_type" type="list" default="1" label="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_CACHE_LABEL" description="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_CACHE_DESC">
+				<option value="1">COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_CACHE_TYPE_GLOBAL</option>
+				<option value="2">COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_CACHE_TYPE_ALWAYS</option>
+				<option value="0">COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_CACHE_TYPE_NEVER</option>
+			</field>
+			<field name="cache_time" type="text" default="60" label="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_CACHE_TIME_LABEL" description="COM_EASYGCALENDAR_VIEW_CALENDAR_FIELD_CACHE_TIME_DESC" />
+		</fieldset>
+	</fields>
+</metadata>

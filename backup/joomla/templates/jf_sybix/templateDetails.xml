@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+	<name>jf_sybix</name>
+	<version>1.0.0</version>
+	<creationDate>02/06/2018</creationDate>
+	<author>Kreatif GmbH</author>
+	<authorEmail>info@joomfreak.com</authorEmail>
+	<authorUrl>http://www.joomfreak.com</authorUrl>
+	<copyright>Kreatif GmbH</copyright>
+	<license>Attribution 2.5 Generic (CC BY 2.5)</license>
+	<description><![CDATA[<style type="text/css" media="all">
+<!--#container {padding:0 10px;}h2 {font-family: Arial Narrow,sans-serif;font-size:24px;margin:0; co-lor:#000;}--></style>
+<div id="container"><h2>jf_sybix</h2><hr color="#E6E6E6" size="0">
+<p><i>joomfreak July 2018! Joomla 3 Template | Creative Commons | by joomfreak.com!</i></p><hr color="#E6E6E6" size="0">
+<p>License: <strong><a href="http://creativecommons.org/licenses/by/2.5/" target="_blank">Creative Commons, Attribution 2.5 Generic (CC BY 2.5)</a></strong></p><hr color="#E6E6E6" size="0">
+<p>JF Sybix demo available here &raquo; <strong><a href="http://www.joomfreak.com/demo/" target="_blank">joomfreak Demo Server</a></strong></p><hr color="#E6E6E6" size="0">
+<p><a title="Visit our official website!" href="http://www.joomfreak.com" target="_blank">
+<img style="padding-left: 5px;" src="../templates/jf_sybix/images/core/jf_sybix.gif" border="0" alt="Logo" /></a></p>
+<img src="../templates/jf_sybix/images/core/module_positions.jpg" border="0" alt="Module Positions" />
+</div>]]>
+	</description>
+	<files>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<folder>css</folder>
+		<folder>fields</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>fonts</folder>
+		<folder>scripts</folder>
+		<folder>language</folder>
+	</files>
+	<positions>
+		<position>debug</position>
+		<position>slideshow</position>
+		<position>mainnav</position>
+		<position>nav-one-page</position>
+		<position>property-info-header</position>
+		<position>location-detail</position>
+		<position>contact-part</position>
+		<position>contact-onepage</position>
+		<position>content-bottom</position>
+		<position>banner-image</position>
+		<position>breadcrumbs</position>
+		<position>right</position>
+		<position>right-header</position>
+	</positions>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_jf_sybix.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_jf_sybix.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="advanced" addfieldpath="/templates/jf_sybix/fields/">
+				<field name="logoOption" type="list" default=""
+					label="TPL_JF_SYBIX_LOGO_OPTION_LABEL"
+					description="TPL_JF_SYBIX_LOGO_OPTION_DESC">
+						<option value="1">TPL_JF_SYBIX_LOGO_AS_IMAGE</option>
+  						<option value="2">TPL_JF_SYBIX_LOGO_AS_TEXT</option>
+				</field>
+				
+				<field name="logoFile" class="" type="media" default=""
+					label="TPL_JF_SYBIX_LOGO_LABEL"
+					description="TPL_JF_SYBIX_LOGO_DESC" />
+					
+				<field name="logoText" type="text" default="MUOTI"
+					label="TPL_JF_SYBIX_LOGO_TEXT_LABEL"
+					description="TPL_JF_SYBIX_LOGO_TEXT_DESC"
+					filter="string" />
+					
+				<field name="backgroundColor" type="list" default=""
+					label="TPL_JF_SYBIX_COLOR_LABEL"
+					description="TPL_JF_SYBIX_COLOR_DESC">
+						<option value="light">TPL_JF_SYBIX_LIGHT</option>
+  						<option value="dark">TPL_JF_SYBIX_DARK</option>
+				</field>
+					
+				<field name="googleFont" type="list" default="" label="TPL_JF_SYBIX_FONT_LABEL" description="TPL_JF_SYBIX_FONT_DESC">
+					<option value="">-- Use default --</option>
+					<option value="OpenSans">Open Sans</option>
+					<option value="Lato">Lato</option>
+					<option value="PTSans">PT Sans</option>
+					<option value="SourceSansPro">Source Sans Pro</option>
+					<option value="Exo2">Exo 2</option>
+					<option value="Ubuntu">Ubuntu</option>
+					<option value="IstokWeb">Istok Web</option>
+					<option value="Nobile">Nobile</option>
+				</field>
+
+				<field name="templateColor" class="" type="color" default="#9AC263"
+					label="TPL_JF_SYBIX_LINK_BUTTON_COLOR_LABEL"
+					description="TPL_JF_SYBIX_LINK_BUTTON_COLOR_DESC" />
+					
+				<field name="menuColor" class="" type="color" default="#6e6e6b"
+					label="Menu Colour"
+					description="Choose an colour" />
+					
+				<field name="menuHoverColor" class="" type="color" default="#435061"
+					label="Menu Hover Colour"
+					description="Choose an colour" />
+					
+				<field name="homepageLayout" type="list" default=""
+					label="Homepage Layout"
+					description="Choose a homepage layout">
+						<option value="1">Home</option>
+  						<option value="2">Onepage</option>
+				</field>
+				
+				<field name="callto" 
+					type="radio" 
+					class="btn-group btn-group-yesno"
+					default="1"
+					label="Show Call Us Now"
+					description="Select an option">
+						<option value="1">JYES</option>
+						<option value="0">JNO</option>
+				</field>
+				
+				<field name="callusnowlabel" type="text" default="Call Us Now"
+					label="Call Us Now Label"
+					description=""
+					filter="string" />
+					
+				<field name="phoneNumber" type="text" default="123 456 789"
+					label="Phone Number"
+					description=""
+					filter="string" />		
+
+				<field name="welcome" 
+					type="radio" 
+					class="btn-group btn-group-yesno"
+					default="1"
+					label="Show Welcome Text"
+					description="Select an option">
+						<option value="1">JYES</option>
+						<option value="0">JNO</option>
+				</field>
+				
+				<field name="welcomeText" type="text" default="Welcome to DreamVilla - a single property theme"
+					label="Welcome Text Label"
+					description=""
+					filter="string" />
+					
+				<field type="spacer" name="myspacer1" hr="true" />
+					
+				<field name="social" 
+					type="radio" 
+					class="btn-group btn-group-yesno"
+					default="1"
+					label="Show Social Button"
+					description="Select an option">
+						<option value="1">JYES</option>
+						<option value="0">JNO</option>
+				</field>
+				
+				<field name="twitterIcon" 
+					type="radio" 
+					class="btn-group btn-group-yesno"
+					default="1"
+					label="Show Twitter Icon"
+					description="Select an option">
+						<option value="1">JYES</option>
+						<option value="0">JNO</option>
+				</field>
+				
+				<field name="twitterLink" type="text" default=""
+					label="Twitter Link"
+					description="Please add your twitter link here"
+					filter="string" />
+				
+				<field name="facebookIcon" type="radio" class="btn-group btn-group-yesno" default="1"
+					label="Show Facebook Icon"
+					description="Select an option">
+						<option value="1">JYES</option>
+						<option value="0">JNO</option>
+				</field>
+				
+				<field name="facebookLink" type="text" default=""
+					label="Facebook Link"
+					description="Please add your facebook link here"
+					filter="string" />
+					
+				<field name="googleIcon" type="radio" class="btn-group btn-group-yesno" default="1"
+					label="Show Google Icon"
+					description="Select an option">
+						<option value="1">JYES</option>
+						<option value="0">JNO</option>
+				</field>
+				
+				<field name="googleLink" type="text" default=""
+					label="Google Link"
+					description="Please add Google link here"
+					filter="string" />									
+					
+				<field name="pinterestIcon" type="radio" class="btn-group btn-group-yesno" default="1"
+					label="Show Pinterest Icon"
+					description="Select an option">
+						<option value="1">JYES</option>
+						<option value="0">JNO</option>
+				</field>
+				
+				<field name="pinterestLink" type="text" default=""
+					label="Pinterest Link"
+					description="Please add your Pinterest link here"
+					filter="string" />
+					
+				<field name="youtubeIcon" type="radio" class="btn-group btn-group-yesno" default="1"
+					label="Show Youtube Icon"
+					description="Select an option">
+						<option value="1">JYES</option>
+						<option value="0">JNO</option>
+				</field>
+				
+				<field name="youtubeLink" type="text" default=""
+					label="Youtube Link"
+					description="Please add your Youtube link here"
+					filter="string" />
+				
+				<field type="spacer" name="myspacer2" hr="true" />
+				
+				<field name="copyright" type="textarea" default="© Copyright 2017." 
+					label="Copyright" 
+					description="" cols="40" rows="4" filter="raw"/>
+					
+				<field type="spacer" name="myspacer3" hr="true" />
+				
+				<field name="map" type="radio" default="1"
+					label="Use map in contact"
+					description="Select an option">
+						<option value="0">No</option>
+  						<option value="1">Yes</option>
+				</field>
+					
+				<field name="latitude" type="text" default="46.4689782"
+					label="Latitude"
+					description="Latitude"
+					filter="string" />
+					
+				<field name="longitude" type="text" default="11.329879"
+					label="Longitude"
+					description="Longitude"
+					filter="string" />
+					
+				<field name="longlat" type="map" label="Google Map" description="" ></field>
+
+			</fieldset>
+		</fields>
+	</config>
+</extension>

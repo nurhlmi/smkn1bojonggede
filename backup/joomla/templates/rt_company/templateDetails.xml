@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+<name>rt_company</name>
+<version>1.3</version>
+<creationDate>December 2016</creationDate>
+<author>Rush Themes</author>
+<authorEmail>mail@rushthemes.com</authorEmail>
+<authorUrl>http://www.rushthemes.com</authorUrl>
+<copyright>Copyright (C) 2016 Rush Themes</copyright>
+<license>GNU/GPL v2 http://www.gnu.org/licenses/gpl-2.0.html</license>
+<description><![CDATA[<a href="http://www.rushthemes.com" target="_blank">Rush Themes</a> Responsive Joomla 3x Templates]]></description>
+<files>
+<filename>index.php</filename>
+<filename>template.php</filename>
+<filename>component.php</filename>
+<filename>templateDetails.xml</filename>
+<filename>template_preview.png</filename>
+<filename>template_thumbnail.png</filename>
+<filename>favicon.ico</filename>
+<folder>language</folder>
+<folder>images</folder>
+<folder>html</folder>
+<folder>css</folder>
+<folder>js</folder>
+</files>
+<positions>
+<position>menu</position>
+<position>left</position>
+<position>right</position>
+<position>banner</position>
+<position>user1</position>
+<position>user2</position>
+<position>user3</position>
+<position>user4</position>
+<position>user5</position>
+<position>user6</position>
+<position>user7</position>
+<position>user8</position>
+<position>user9</position>
+<position>bottom1</position>
+<position>bottom2</position>
+<position>bottom3</position>
+<position>bottom4</position>
+<position>bottom5</position>
+<position>footer1</position>
+<position>footer2</position>
+<position>footer3</position>
+<position>footer4</position>
+<position>footer5</position>
+<position>debug</position>
+</positions>
+<languages folder="language">
+<language tag="en-GB">en-GB/en-GB.tpl_rt_company.ini</language>
+<language tag="en-GB">en-GB/en-GB.tpl_rt_company.sys.ini</language>
+</languages>
+<config>
+<fields name="params">
+<fieldset name="advanced">
+<field name="logo" type="media" label="Logo" default="templates/rt_company/images/logo.png" description="Upload an Image Logo." />
+</fieldset>
+</fields>
+</config>
+</extension>
